@@ -1,0 +1,12 @@
+hex2bin v2.5, Copyright (C) 2017 Jacques Pelletier & contributors
+
+Allocate_Memory_and_Rewind:
+Lowest address:   00000000
+Highest address:  0000009B
+Starting address: 00000000
+Max Length:       156
+
+Binary file start = 00000000
+Records start     = 00000000
+Highest address   = 0000009B
+Pad Byte          = FF
