@@ -10,7 +10,9 @@ void main() {
 	
 	while(1){
 		P0 = m[i++ % 8];
+//		LED = 0;
 		delay(1);
+//		LED = 1
 		P0 = 0xff;
 		delay(1);
 	}
