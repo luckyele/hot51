@@ -1,5 +1,5 @@
 
-HEX2BIN_PATH=/home/luckybb/Downloads/hot51/Hex2bin-2.5
+HEX2BIN_PATH=../Hex2bin-2.5
 
 
 flowlight.hex:flowlight.c
