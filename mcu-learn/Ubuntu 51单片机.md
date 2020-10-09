@@ -5,9 +5,9 @@
 
 1. 编译器：SDCC
 
-sdcc 编译器可在sourceforce网站[下载](https://sourceforge.net/projects/sdcc/)网站下载安装最新版本。
+sdcc 编译器可在sourceforce网站[下载](https://sourceforge.net/projects/sdcc/)下载安装最新版本。
 
-也在终端运行：`sudo apt install sdcc`，直接安装。
+也可以在终端运行：`sudo apt install sdcc`，直接安装。
 
 安装完成后，可用命令：`sdcc sourcefile.c`，编译程序，生成.ihx文件。
 
@@ -55,7 +55,6 @@ sdcc 编译器可在sourceforce网站[下载](https://sourceforge.net/projects/s
 
 八个发光二极管 L1-L8 分别接在单片机的 P0.0-P0.7 接口上。点亮某个发光二极管，需要设置低电平（即置0）。
 
-
 #### SDCC 编译多个文件
 
 sdcc不支持同时编译多个文件，如要编译main.c, other.c，则需分步编译。其过程如下：
@@ -76,6 +75,4 @@ sdcc 编译生成多个后缀的文件，其含义分别如下：
 .map - 被链接器更新的最终存储器映射
 .mem - 内存的使用情况摘要
 .ihx - 用于生成Intel Hex格式文件模块
-
-
 
